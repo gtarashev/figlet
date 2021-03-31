@@ -22,10 +22,19 @@ impl Character {
     }
 
     // join together the two Characters and return them (as character)
-    fn join(char1: Character, char2: Character) -> Character {
-        char1
+    fn join(char1: &Character, char2: &Character) -> Character {
+        // go thorough each of the rows of each Character
+        // and add them to one string
+        todo!()
+    }
+
+    // print out the character
+    fn print(c: &Character) {
+        todo!() 
     }
 }
 
 fn main() {
+    // try something
+    let something = Character::new();
 }
